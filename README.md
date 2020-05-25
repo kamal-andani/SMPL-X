@@ -60,3 +60,9 @@ $ git submodule update --init --recursive --remote
 $ cd build
 $ make -j`nproc`
 ```
+
+### Run Openpose on images
+Go to Openpose directory and run following
+```
+$ build/examples/openpose/openpose.bin --image_dir IMAGEDIRECTORY  --face --hand --write_json OUTPUTDIRECTORY --write_images OUTPUTDIRECTORY
+```
