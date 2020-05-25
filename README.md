@@ -61,6 +61,14 @@ $ cd build
 $ make -j`nproc`
 ```
 
+### Model Downloading
+If models are not downloaded automatically download them from following links
+-[BODY_25](http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/body_25/pose_iter_584000.caffemodel): download in **models/pose/body_25/**
+-[COCO model](http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/coco/pose_iter_440000.caffemodel): download in **models/pose/coco/**
+- [MPI model](http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/mpi/pose_iter_160000.caffemodel): download in **models/pose/mpi/**
+- [Face model](http://posefs1.perception.cs.cmu.edu/OpenPose/models/face/pose_iter_116000.caffemodel): download in **models/face/**
+- [Hands model](http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.caffemodel): download in **models/hand/**
+
 ### Run Openpose on images
 Go to Openpose directory and run following
 ```
